@@ -1,0 +1,194 @@
+html,
+body{
+    /* width: 100%; */
+    overflow-x: hidden;
+    color: black;
+    margin-bottom:-40px;
+}
+
+h1,h2,h3,h4,h5,p{
+    color : #4E4E4E;
+}
+
+.text-grey{
+    color : #B4B4B4;
+}
+
+.text-pink{
+    color : #E5386D;
+}
+
+.bg-pink{
+    background-color: #FF8FB2;
+}
+.bg-pinkA{
+    background-color: #FDD3E4;
+}
+.bg-pinkB{
+    background-color: #FFF6F4;
+}
+.bg-pinkC{
+    background-color: #FBB2B4;
+}
+.bg-pinkD{
+    background-color: #E5386D;
+}
+
+.georgia{
+    font-family: Georgia !important;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.ratio {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 0;
+    padding-bottom: 50%;
+    /* padding: 5%; */
+    position: relative;
+    width: 50%;
+}
+.img-responsive {
+    display: block;
+    height: 0px;
+    max-width: 100%;
+}
+
+.jumbotron{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.664),rgba(0, 0, 0, 0.767)),url(../img/3.jpeg);
+    background-size: cover;
+    color: white;
+    background-position: center;
+}
+
+.jumbo{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.664),rgba(0, 0, 0, 0.767)),url(../img/3.jpeg);
+    background-size: cover;
+    height: auto;
+    color: white;
+    background-position: center;
+}
+
+.footer{
+    background-color: rgba(240, 240, 240, 0.671);
+}
+.footer-text{
+    color: white;
+    padding-left: 3%;
+    padding-right: 2%;
+    padding-top: 3%;
+}
+.bg-black-1{
+    background-color: #1d1d1d;
+}
+
+.bg-black-2{
+    background-color: #212121;
+}
+
+.bg-white-1{
+    background-color: #ffffff;
+}
+
+.bg-white-2{
+    background-color: #fafafa;
+}
+
+.bg-youtube{
+    background: url(../img/UNCLE-JO/uncle.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.bg-flat{
+    background: url(../img/UNCLE-JO/uncle.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.img-custom{
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+@media only screen and (max-width: 1200px) {
+    .frame-yt{
+        width: 510px;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .frame-yt{
+        width: 560px;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .frame-yt{
+        width: 710px;
+        height: 400px;
+    }
+    .bg-coffe{
+        position: relative;
+        background-position: center;
+        background-image: url(../img/background/coffe-work-ui.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .frame-yt{
+        width: 320px;
+        height: 400px;
+    }
+    .bg-coffe{
+        position: relative;
+        background-position: center;
+        background-image: url(../img/background/coffe-work-ui.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .img-workshop{
+        position: relative;
+        width: 350px;
+    }
+
+    .cerita-text{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .map-row{
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .col-md-push-6 {
+        left: 50%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .col-md-pull-6 {
+        right: 50%;
+    }
+}
