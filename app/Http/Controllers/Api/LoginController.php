@@ -28,4 +28,16 @@ class LoginController extends Controller
             'error' => 'Your Credential does not match',            
         ],401);
     }
+
+    public function logout(Request $request) 
+    {
+        $token = $request->user()->token();
+        $token->revoke();
+    
+        $response = [
+            'message' => 'You have been succesfully logged out!'
+        ];
+        
+        return response($response, 200);
+    }
 }
